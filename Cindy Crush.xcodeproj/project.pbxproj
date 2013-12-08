@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A096019B1837132400185EDF /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A096019A1837132400185EDF /* FacebookSDK.framework */; };
+		A096019F1838753F00185EDF /* LandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A096019D1838753F00185EDF /* LandingViewController.m */; };
+		A09601A01838753F00185EDF /* LandingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A096019E1838753F00185EDF /* LandingViewController.xib */; };
+		A096021B18518E7F00185EDF /* action-eating.png in Resources */ = {isa = PBXBuildFile; fileRef = A096021618518E7F00185EDF /* action-eating.png */; };
+		A096021C18518E7F00185EDF /* action-location.png in Resources */ = {isa = PBXBuildFile; fileRef = A096021718518E7F00185EDF /* action-location.png */; };
+		A096021D18518E7F00185EDF /* action-people.png in Resources */ = {isa = PBXBuildFile; fileRef = A096021818518E7F00185EDF /* action-people.png */; };
+		A096021E18518E7F00185EDF /* action-photo.png in Resources */ = {isa = PBXBuildFile; fileRef = A096021918518E7F00185EDF /* action-photo.png */; };
+		A096021F18518E7F00185EDF /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = A096021A18518E7F00185EDF /* facebook.png */; };
+		A096022318518EA600185EDF /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = A096022018518EA600185EDF /* Icon-72.png */; };
+		A096022418518EA600185EDF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A096022118518EA600185EDF /* Icon.png */; };
+		A096022518518EA600185EDF /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A096022218518EA600185EDF /* Icon@2x.png */; };
+		A096022918518F5B00185EDF /* SCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A096022718518F5B00185EDF /* SCLoginViewController.m */; };
+		A096022A18518F5B00185EDF /* SCLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A096022818518F5B00185EDF /* SCLoginViewController.xib */; };
 		A096FF8F18370D9600185EDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A096FF8E18370D9600185EDF /* UIKit.framework */; };
 		A096FF9118370D9600185EDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A096FF9018370D9600185EDF /* Foundation.framework */; };
 		A096FF9318370D9600185EDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A096FF9218370D9600185EDF /* CoreGraphics.framework */; };
@@ -22,6 +35,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A096019A1837132400185EDF /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		A096019C1838753F00185EDF /* LandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandingViewController.h; sourceTree = "<group>"; };
+		A096019D1838753F00185EDF /* LandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandingViewController.m; sourceTree = "<group>"; };
+		A096019E1838753F00185EDF /* LandingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandingViewController.xib; sourceTree = "<group>"; };
+		A096021618518E7F00185EDF /* action-eating.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-eating.png"; sourceTree = "<group>"; };
+		A096021718518E7F00185EDF /* action-location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-location.png"; sourceTree = "<group>"; };
+		A096021818518E7F00185EDF /* action-people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-people.png"; sourceTree = "<group>"; };
+		A096021918518E7F00185EDF /* action-photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-photo.png"; sourceTree = "<group>"; };
+		A096021A18518E7F00185EDF /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		A096022018518EA600185EDF /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		A096022118518EA600185EDF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A096022218518EA600185EDF /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A096022618518F5B00185EDF /* SCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLoginViewController.h; sourceTree = "<group>"; };
+		A096022718518F5B00185EDF /* SCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLoginViewController.m; sourceTree = "<group>"; };
+		A096022818518F5B00185EDF /* SCLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCLoginViewController.xib; sourceTree = "<group>"; };
 		A096FF8B18370D9600185EDF /* Cindy Crush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cindy Crush.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A096FF8E18370D9600185EDF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A096FF9018370D9600185EDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -49,12 +77,25 @@
 				A096FF8F18370D9600185EDF /* UIKit.framework in Frameworks */,
 				A096FF9118370D9600185EDF /* Foundation.framework in Frameworks */,
 				A096FF9318370D9600185EDF /* CoreGraphics.framework in Frameworks */,
+				A096019B1837132400185EDF /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A096021518518E7F00185EDF /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A096021618518E7F00185EDF /* action-eating.png */,
+				A096021718518E7F00185EDF /* action-location.png */,
+				A096021818518E7F00185EDF /* action-people.png */,
+				A096021918518E7F00185EDF /* action-photo.png */,
+				A096021A18518E7F00185EDF /* facebook.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		A096FF8218370D9500185EDF = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +116,7 @@
 		A096FF8D18370D9600185EDF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A096019A1837132400185EDF /* FacebookSDK.framework */,
 				A096FF8E18370D9600185EDF /* UIKit.framework */,
 				A096FF9018370D9600185EDF /* Foundation.framework */,
 				A096FF9218370D9600185EDF /* CoreGraphics.framework */,
@@ -85,6 +127,10 @@
 		A096FF9418370D9600185EDF /* Cindy Crush */ = {
 			isa = PBXGroup;
 			children = (
+				A096022018518EA600185EDF /* Icon-72.png */,
+				A096022118518EA600185EDF /* Icon.png */,
+				A096022218518EA600185EDF /* Icon@2x.png */,
+				A096021518518E7F00185EDF /* images */,
 				A096FF9D18370D9600185EDF /* CindyCrushAppDelegate.h */,
 				A096FF9E18370D9600185EDF /* CindyCrushAppDelegate.m */,
 				A096FFA618370D9600185EDF /* MainStoryboard_iPhone.storyboard */,
@@ -92,6 +138,12 @@
 				A096FFAC18370D9600185EDF /* CindyCrushViewController.h */,
 				A096FFAD18370D9600185EDF /* CindyCrushViewController.m */,
 				A096FF9518370D9600185EDF /* Supporting Files */,
+				A096019C1838753F00185EDF /* LandingViewController.h */,
+				A096019D1838753F00185EDF /* LandingViewController.m */,
+				A096019E1838753F00185EDF /* LandingViewController.xib */,
+				A096022618518F5B00185EDF /* SCLoginViewController.h */,
+				A096022818518F5B00185EDF /* SCLoginViewController.xib */,
+				A096022718518F5B00185EDF /* SCLoginViewController.m */,
 			);
 			path = "Cindy Crush";
 			sourceTree = "<group>";
@@ -146,6 +198,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				he,
 			);
 			mainGroup = A096FF8218370D9500185EDF;
 			productRefGroup = A096FF8C18370D9600185EDF /* Products */;
@@ -168,6 +221,16 @@
 				A096FFA518370D9600185EDF /* Default-568h@2x.png in Resources */,
 				A096FFA818370D9600185EDF /* MainStoryboard_iPhone.storyboard in Resources */,
 				A096FFAB18370D9600185EDF /* MainStoryboard_iPad.storyboard in Resources */,
+				A09601A01838753F00185EDF /* LandingViewController.xib in Resources */,
+				A096021B18518E7F00185EDF /* action-eating.png in Resources */,
+				A096021C18518E7F00185EDF /* action-location.png in Resources */,
+				A096021D18518E7F00185EDF /* action-people.png in Resources */,
+				A096021E18518E7F00185EDF /* action-photo.png in Resources */,
+				A096021F18518E7F00185EDF /* facebook.png in Resources */,
+				A096022318518EA600185EDF /* Icon-72.png in Resources */,
+				A096022418518EA600185EDF /* Icon.png in Resources */,
+				A096022518518EA600185EDF /* Icon@2x.png in Resources */,
+				A096022A18518F5B00185EDF /* SCLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +244,8 @@
 				A096FF9B18370D9600185EDF /* main.m in Sources */,
 				A096FF9F18370D9600185EDF /* CindyCrushAppDelegate.m in Sources */,
 				A096FFAE18370D9600185EDF /* CindyCrushViewController.m in Sources */,
+				A096019F1838753F00185EDF /* LandingViewController.m in Sources */,
+				A096022918518F5B00185EDF /* SCLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +340,10 @@
 		A096FFB218370D9600185EDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../FacebookSDK\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Cindy Crush/Cindy Crush-Prefix.pch";
 				INFOPLIST_FILE = "Cindy Crush/Cindy Crush-Info.plist";
@@ -286,6 +355,10 @@
 		A096FFB318370D9600185EDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../FacebookSDK\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Cindy Crush/Cindy Crush-Prefix.pch";
 				INFOPLIST_FILE = "Cindy Crush/Cindy Crush-Info.plist";
@@ -313,6 +386,7 @@
 				A096FFB318370D9600185EDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

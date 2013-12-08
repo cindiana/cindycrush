@@ -7,12 +7,17 @@
 //
 
 #import "CindyCrushAppDelegate.h"
+#import "LandingViewController.h"
+#import "SCLoginViewController.h"
+
 
 @implementation CindyCrushAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    LandingViewController *viewController = [[LandingViewController alloc] initWithNibName:@"LandingViewController" bundle:nil];
+    self.window.rootViewController = viewController;
     return YES;
 }
 							
